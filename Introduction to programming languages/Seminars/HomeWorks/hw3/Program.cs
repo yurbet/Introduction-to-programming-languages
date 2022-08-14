@@ -1,5 +1,5 @@
 ﻿// Задача 19. Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
-/*
+
 int NegativeToPositive(int num)
 {
     if (num < 0)
@@ -8,7 +8,7 @@ int NegativeToPositive(int num)
         return num;
 }
 
-int ReversString(int n)
+int ReversNumber(int n)
 {
     char[] arr = n.ToString().ToCharArray();
     Array.Reverse(arr);
@@ -29,8 +29,8 @@ Console.Write("Enter any integer: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int current = NegativeToPositive(number);
 
-Palindrome(current, ReversString(current));
-*/
+Palindrome(current, ReversNumber(current));
+
 
 // Задача 21. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 /*
@@ -57,7 +57,7 @@ Console.WriteLine($"Расстояние между двух точек в 3D п
 */
 
 // Задача 23. Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
-
+/*
 void ShowSquare (double number)
 {
     for (int i = 1; i <= number; i++)
@@ -70,3 +70,4 @@ void ShowSquare (double number)
 Console.Write("Введите любое число: ");
 double digit = Convert.ToInt32(Console.ReadLine());
 ShowSquare(digit);
+*/
